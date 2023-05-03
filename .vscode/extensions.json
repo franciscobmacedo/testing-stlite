@@ -1,3 +1,6 @@
 {
-    "recommendations": ["fbm.sf-stlite-3", "ms-python.python"]
-  }
+    "recommendations": [
+        "fbm.sf-stlite-3",
+        "ms-python.python"
+    ]
+}
