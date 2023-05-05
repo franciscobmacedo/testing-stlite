@@ -6,7 +6,7 @@ function createAppList(arr) {
     const item = document.createElement("li");
     const anchor = document.createElement("a");
     
-    const scriptUrl = encodeURIComponent(`${BASE_URL}/${entry.app}`);
+    const scriptUrl = `${BASE_URL}/${entry.app}`;
     const packages = entry.requirements.join("&req=");
     const url = `https://share.stlite.net/#url=${scriptUrl}?req=${packages}`;
     anchor.href = url;
