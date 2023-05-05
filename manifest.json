@@ -1,0 +1,28 @@
+[
+  {
+    "app": "apps/000_intro/PATCh_app.py",
+    "requirements": [],
+    "name": "000 intro"
+  },
+  {
+    "app": "apps/002_quality_data_usecase_EH/quality_data_usecase_EH.py",
+    "requirements": [
+      "plotly",
+      "openpyxl",
+      ""
+    ],
+    "name": "002 quality data usecase eh"
+  },
+  {
+    "app": "apps/005_stage_of_cs_provision/app.py",
+    "requirements": [
+      "matplotlib"
+    ],
+    "name": "005 stage of cs provision"
+  },
+  {
+    "app": "apps/001_template/streamlit_app.py",
+    "requirements": [],
+    "name": "001 template"
+  }
+]
