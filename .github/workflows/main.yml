@@ -17,3 +17,9 @@ jobs:
       with:
         python-version: '3.11.0' 
     - run: python build_apps_manifest.py
+
+    - name: Upload manifest
+      uses: actions/upload-artifact@v3
+      with:
+        name: manifest
+        path: manifest.json
