@@ -17,7 +17,7 @@ for app_name in os.listdir(apps_dir):
             requirements_file = os.path.join(app_path, "requirements.txt")
             if os.path.exists(requirements_file):
                 with open(requirements_file, "r") as f:
-                    requirements = [line.strip() for line in f.readlines()]
+                    requirements = [line.strip() for line in f.readlines() if line.strip()]
             else:
                 requirements = []
             manifest.append(
