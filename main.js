@@ -5,10 +5,13 @@ function createAppList(arr) {
   for (const entry of arr) {
     const item = document.createElement("li");
     const anchor = document.createElement("a");
-    
+
     const scriptUrl = `${BASE_URL}/${entry.app}`;
     const packages = entry.requirements.join("&req=");
-    const url = `https://share.stlite.net/#url=${scriptUrl}&req=${packages}`;
+    let url = `https://share.stlite.net/#url=${scriptUrl}`;
+    if (packages) {
+      url = url + `&req=${packages}`;
+    }
     anchor.href = url;
     anchor.textContent = entry.name;
     anchor.target = "_blank";
