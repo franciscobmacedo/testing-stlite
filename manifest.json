@@ -1,0 +1,10 @@
+[
+  {
+    "app": "github.com/SocialFinanceDigitalLabs/path/blob/main/apps/my_first_app.py",
+    "requirements": []
+  },
+  {
+    "app": "github.com/SocialFinanceDigitalLabs/patho/blob/main/apps/my_second_app.py",
+    "requirements": ["matplotlib", "openpyxl"]
+  }
+]
