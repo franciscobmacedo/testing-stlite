@@ -8,7 +8,7 @@ function createAppList(arr) {
     
     const scriptUrl = `${BASE_URL}/${entry.app}`;
     const packages = entry.requirements.join("&req=");
-    const url = `https://share.stlite.net/#url=${scriptUrl}?req=${packages}`;
+    const url = `https://share.stlite.net/#url=${scriptUrl}&req=${packages}`;
     anchor.href = url;
     anchor.textContent = entry.name;
     anchor.target = "_blank";
