@@ -8,8 +8,7 @@
     "app": "apps/002_quality_data_usecase_EH/quality_data_usecase_EH.py",
     "requirements": [
       "plotly",
-      "openpyxl",
-      ""
+      "openpyxl"
     ],
     "name": "002 quality data usecase eh"
   },
