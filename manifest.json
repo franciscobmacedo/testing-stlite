@@ -1,5 +1,17 @@
 [
   {
+    "app": "apps/001_template/streamlit_app.py",
+    "requirements": [],
+    "name": "001 template"
+  },
+  {
+    "app": "apps/005_stage_of_cs_provision/app.py",
+    "requirements": [
+      "matplotlib"
+    ],
+    "name": "005 stage of cs provision"
+  },
+  {
     "app": "apps/000_intro/PATCh_app.py",
     "requirements": [],
     "name": "000 intro"
@@ -11,17 +23,5 @@
       "openpyxl"
     ],
     "name": "002 quality data usecase eh"
-  },
-  {
-    "app": "apps/005_stage_of_cs_provision/app.py",
-    "requirements": [
-      "matplotlib"
-    ],
-    "name": "005 stage of cs provision"
-  },
-  {
-    "app": "apps/001_template/streamlit_app.py",
-    "requirements": [],
-    "name": "001 template"
   }
 ]
