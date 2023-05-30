@@ -3,7 +3,9 @@ import streamlit as st
 
 from pyodide.http import open_url
 
-data = open_url("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/diamonds.csv")
+url = "https://raw.githubusercontent.com/franciscobmacedo/testing-stlite/main/a1_cin_assessments_episodes_referrals_2013_to_2022.csv"
+
+data = open_url(url)
 
 df = pd.read_csv(data)
 
