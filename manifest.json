@@ -1,8 +1,8 @@
 [
   {
-    "app": "apps/001_template/streamlit_app.py",
+    "app": "apps/000_intro/PATCh_app.py",
     "requirements": [],
-    "name": "001 template"
+    "name": "000 intro"
   },
   {
     "app": "apps/005_stage_of_cs_provision/app.py",
@@ -12,9 +12,9 @@
     "name": "005 stage of cs provision"
   },
   {
-    "app": "apps/000_intro/PATCh_app.py",
+    "app": "apps/001_template/streamlit_app.py",
     "requirements": [],
-    "name": "000 intro"
+    "name": "001 template"
   },
   {
     "app": "apps/002_quality_data_usecase_EH/quality_data_usecase_EH.py",
